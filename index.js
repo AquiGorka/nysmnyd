@@ -1,2 +1,2 @@
-// TODO: add cool feature A
-// sure?
+const A = 'a';
+export default A;
