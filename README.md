@@ -44,7 +44,7 @@ alias git-fix='git reset --soft HEAD~2 && git commit -m"$(git log --format=%B --
 
 ## See it in action
 
-This repo has the following commits (```git log```):
+This repo has the following commits (`git log`):
 
 - I wish I'd remembered to format my code before commit 3
 - Adds commit 3
@@ -52,11 +52,11 @@ This repo has the following commits (```git log```):
 - Adds commit 1 
 - Now you see me, now you don't: adds initial commit  
 
-Clone the repo ```git clone https://github.com/AquiGorka/nysm-nyd``` and run the
-command ```git reset --soft HEAD~2 && git commit -m"$(git log --format=%B
---reverse HEAD..HEAD@{1})"```
+Clone the repo `git clone https://github.com/AquiGorka/nysmnyd` and run the
+command `git reset --soft HEAD~2 && git commit -m"$(git log --format=%B
+--reverse HEAD..HEAD@{1})"`
 
-Take a look at the commit log now (```git log```):
+Take a look at the commit log now (`git log`):
 
 - Adds commit 3
 - Adds commit 2
